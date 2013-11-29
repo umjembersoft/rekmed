@@ -1,0 +1,93 @@
+
+/* Wrapper */
+#wrapper {
+}
+
+/* Header */
+#header {
+	width: 760px;
+	height: 100px;
+	margin: 0 auto;
+	background:url(images/header2.jpg) no-repeat left top;
+}
+
+/* Page */
+#page {
+	width: 760px;
+	margin: 0 auto;
+}
+
+#page-bgtop {
+}
+
+/* sidebar */
+#sidebar {
+	float: left;
+	width: 200px;
+	margin-top: 10px;
+	background-color:white;
+	border-bottom:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+#menuheader {
+	width:200px;
+	height:27px;
+	background:url(images/menubar.jpg) no-repeat left top;
+}
+
+#submenu {
+	width:186px;
+	height:30px;
+	background-color:aqua;
+	margin: 0 auto;
+	margin-top:7px;
+}
+
+#submenu a {
+	float: left;
+	height:20px;
+	width: 176px;
+	padding:5px 0px 5px 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: smaller;
+	font-weight: bold;
+	color: #000000;
+}
+
+#submenu a:hover{
+	background-color:yellow;
+}
+
+/* Content */
+#content {
+	float: right;
+	width: 550px;
+	margin-top: 10px;
+	border:1px solid black;
+}
+
+#content h2{
+	padding:0px 30px 0px 30px;
+	margin-top: 30px;
+}
+
+#content form{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	margin-top: 20px;
+}
+
+/* footer */
+#footer {
+	width: 760px;
+	height: 15px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+	background:url(images/footer2.jpg) no-repeat left top;
+}

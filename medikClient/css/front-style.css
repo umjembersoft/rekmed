@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#wrapper {
+	
+}
+
+#header{
+	width:1000px;
+	height:140px;
+	margin:0 auto;
+	margin-top:10px;
+	background:url(images/header.jpg) no-repeat;
+}
+
+#content{
+	width:1000px;
+	height:400px;
+	margin:0 auto;
+	margin-top:10px;
+}
+
+#kiri{
+	width:720px;
+	height:400px;
+	background-color:blue;
+	float:left;
+}
+
+/* menu */
+#menu-kiri{
+	width:720px;
+	height:40px;
+	background:url(images/menukiri.jpg) no-repeat left top;
+	float:left;
+}
+
+#menu-kiri ul{
+	margin: 0;
+	padding: 0px 0 0 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu-kiri li{
+	display: block;
+	float: left;
+	height: 40px;
+	margin-right:2px;
+	background-color:maroon ;
+}
+
+#menu-kiri  a {
+	float: left;
+	height:25px;
+	padding:15px 10px 0px 10px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu-kiri  a:hover{
+	background-color:lime;
+	color: #000000;
+}
+
+/* content */
+#isi-kiri{
+	width:710px;
+	height:350px;
+	background-color:white;
+	margin:5px 5px 5px 5px;
+	float:left;
+}
+
+/* kanan */
+#kanan{
+	width:270px;
+	height:400px;
+	background-color:blue;
+	float:right;
+}
+
+#header-kanan{
+	width:270px;
+	height:40px;
+	background:url(images/header-kanan.jpg) no-repeat left top;
+	float:right;
+}
+
+#header-kanan h3 {
+	margin: 0;
+	padding: 10px 0 0 10px;
+	text-align: left;
+	line-height: normal;
+	font-size: 16px;
+	color: #000000;
+}
+
+/* login*/
+#login{
+	width:260px;
+	height:350px;
+	margin:5px 5px 5px 5px;
+	background:#66FF00;
+	float:left;
+}
+
+#login form{
+	margin:35px 5px 5px 5px;
+}
+
+#login p{
+	margin:20px;
+	padding:0 20px 0 0;
+	float:right;
+	color:red;
+}
+/* footer */
+#footer{
+	width:1000px;
+	height:50px;
+	background:url(images/footer.jpg) no-repeat left top;
+	margin:0 auto;
+	margin-top:10px;
+}
+

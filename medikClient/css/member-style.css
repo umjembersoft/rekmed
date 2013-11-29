@@ -1,0 +1,126 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+
+/* wrapper */
+#wrapper {
+	width: 760px;
+	margin: 0 auto;
+}
+
+/* header */
+#header {
+	width: 760px;
+	height:100px;
+	margin: 0 auto;
+	background:url(images/header2.jpg) no-repeat left top;	
+}
+/* status */
+#status {
+	width: 758px;
+	margin: 0 auto;
+	border:1px solid #000000;
+	margin-top:5px;
+	background-color:#00FF00;
+}
+
+#status p {
+	padding:0 0 2px 10px;
+}
+
+#status a {
+	color:blue;
+	text-decoration:none;
+}
+
+/* tengah */
+#tengah {
+	width: 760px;
+	height:160px;
+	margin-top:5px;
+	border-bottom: 5px solid white;
+	background:url(images/tengah.jpg) no-repeat left top;
+}
+
+/* search */
+#search {
+	width: 500px;
+	height:160px;
+	float:left;
+	border-right:5px solid white;
+	background:url(images/search.jpg) no-repeat left top;
+}
+
+#search form{
+	margin:15px 5px 5px 30px;
+}
+
+#search td{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+
+/* admin */
+#admin {
+	width: 255px;
+	height:160px;
+	float:right;
+}
+
+/* result cari */
+#result {
+	width: 760px;
+	border-bottom: 5px solid white;
+	background-color:#FFFFFF;
+}
+
+#result table {
+	width: 760px;
+	border:1px solid black;
+}
+
+#result th {
+	border:1px solid black;
+	background-color:#00FF00;
+}
+
+#result td {
+	border:1px solid black;
+	background-color:#CCFF00;
+}
+
+#result a {
+	color:blue;
+	text-decoration:none;
+}
+
+#result p {
+	margin: 0;
+	padding: 5px 0;
+	text-align: center;
+	line-height: normal;
+	color: #FF0000;
+}
+
+#result i {
+	margin: 0;
+	padding: 5px 0 0 20px;
+	text-align: left;
+	line-height: normal;
+	color: #000000;
+}
+
+/* footer */
+#footer {
+	width: 760px;
+	height:50px;
+	margin: 0 auto;
+	padding: 0px 0 15px 0;
+	border-top: 1px solid #DEDEDE;
+	background:url(images/footer2.jpg) no-repeat left top;
+}

@@ -1,0 +1,35 @@
+<form action="?mod=cari" method="POST"> 
+	<table>
+		<tr>
+			<td height='30'>Lokasi Rumah Sakit</td>
+			<td width='20'></td>
+			<td>
+				<select name='rs'>
+					<?php
+						include ("include/optionRS.php");
+					?>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td height='30'>Kategori Rawat</td>
+			<td width='20'></td>
+			<td>
+				<select name='kategori'>
+					<option value='1'>Rawat Inap</option>
+					<option value='2'>Rawat Jalan</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td height='30'>Nama Pasien</td>
+			<td width='20'></td>
+			<td><input type='text' name='nama_pasien' size='30'/></td>
+		</tr>
+		<tr>
+			<td height='30'></td>
+			<td width='20'></td>
+			<td><input type='submit' name='cari' value='cari'/></td>
+		</tr>
+	</table>
+</form>
